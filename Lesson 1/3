@@ -1,0 +1,44 @@
+Briefly describe the technology that you use within your organisation.   Describe software and hardware.
+
+
+Circle Interactive's main technology platform is Drupal and CiviCRM.
+Drupal, is an open source CMS (Content Management System) written in PHP used by 2.3% of websites worldwide. With a large open source community of more than 1,000,000 active contributors.
+CiviCRM is an open source Constituent Relationship Management Software used by nonprofits and medium size organizations. It allows for Contact Management, Membership Management, Events and Contributions.
+
+In the office we use ASUS/Apple laptops running Ubuntu, GNU/Linux is used for it's for having a CLI(Command Line Interface), Bash and for the ease of connecting to development, and producction enviorments which run GNU/Linux.
+We employ version-control with Git and use the cloud repository Bitbucket for managing source code during development.
+The organisations IDE of choice is Visual Studio Code, for it's ability to perform remote development via SSH.
+
+For proccessing and storage of client communication, change requests and support tickets, Circle Interactive makes use of an inhouse developed intranet system.
+Here all involved parties can communicate and enquire on the stages of development and status of the work.
+A bot is also employed that links Git to the intranet via unique ID, and relays the development process to the client.
+
+For workflows the company employs the agile methodology Kanban, with a tracking board on the main office wall. By separating work into manegable portions through the use of a burn-down chart and user stories.
+This allows for higher visibility of employee responsabilities increases productivity and communication of team members.
+
+
+^
+USE
+
+
+
+Circle Interactive is a leading CiviCRM specialist in the UK, and is a founding partner and supporting contributor
+for CiviCRM.
+
+The technology used within Circle Interactive primarily consists of the use of Drupal and CiviCRM.
+Drupal, a leading content management system, is free, open-source software and has been developed by over a
+million users in 230 countries. CiviCRM is also web-based open-source software that is used by a diverse range of
+organisations, particularly not-for-profit organisations and has been developed by a community of contributors
+and supporters.
+Circle Interactive is a leading CiviCRM specialist in the UK, and is a founding partner and supporting contributor
+for CiviCRM.
+In office, we use laptops. This allows us to move from desk-to-desk dependant on who we are working with. If we
+are working alone, we have “allocated” seats but may swap from day to day. Each workspace has an extra
+monitor and supportive chairs, and the office is well ventilated. On our laptops, we use Ubuntu due to the ease
+of upgrading, maintaining (by the System Administrators) and primarily the ability to use the terminal for
+connecting to testing, staging and live servers.
+Circle Interactive does not have a strict policy on what Integrated Development Environment (IDE) we have to
+use, so for all of us it fluctuates. I use Microsoft Visual Studio Code as I believe it is a very efficient IDE and saves
+me a lot of time when it comes to commits my changes to Git (a version control platform), checking the syntax of
+my code, and much more.
+1,000,000 

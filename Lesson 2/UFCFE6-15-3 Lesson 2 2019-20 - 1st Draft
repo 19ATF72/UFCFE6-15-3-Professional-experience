@@ -1,0 +1,292 @@
+Critically analyse one or more technological, methodological or business trend, issue, challenge or opportunity in your organisation(or organisation's sector). 
+You may focus on the issue(s) you investigated in the tasks, if you wish.
+
+A report into the challenges of implementing containorised DevOps solutions
+A report into the challenges of virtualisation
+
+
+MUST BE WRITTEN IN 3rd Person
+
+INTRODUCTION
+LITERATURE REVIEW
+METHODOLOGY
+FINDINGS
+DISCUSSION
+CONCLUSION
+RECOMMENDATIONS
+
+
+
+
+INTRODUCTION
+
+An online pressence is nescesary for any company looking to expand it's customer base.
+With approximately 96% of the UK population with access to the internet (eccomercenews.eu),
+and with E-commerce accounting for 18.4% of total buisness turnover in the UK 2018 (statista.com).
+With around 175 billion euros worth of transactions it is a growing buisness, predicted to reach 200 billion in 2019 (statista.com).
+That is about a 13.1% increase from 2017 (eccomercenews.eu).
+Online sales now account for 7.94% of GDP (eccomercenews.eu).
+Some companies such as amazon and ebay rely on completely online experience for customers.
+
+It is clear that having an online prescence is vital, and companies offering a complete service package are in demand. 
+Being able to provide end to end setup that includes hosting, maitanance, security audits and development is a desired product.
+Circle Interactive provides all the above and more.
+
+Over the last few months my organisation has been making a push to reprioritize system admin time.
+To achieve this they are training developpers to perform more server related tasks to allow them more time to focus on client responsabilities.
+
+A large portion of the cost at my organisation are related to setup costs, development and software upgrades.
+These follow a set of predetermined steps for each new client.
+However this process is bottlenecked due to only having 2 sys admins.
+
+In my organisation I work as a developper performing ocasional server related tasks.
+A great way to improve performance in this system would be to package the whole process into a docker container.
+Allowing anyone from Junior Developper, to Sys Admin to quickly implement a complete drupal installation,
+including MariaDB, Nginx and git installation.
+It would also allow for seamless upgrades to new versions, allowing for version control and easy backup before large changes.
+
+This paper intends to cover the issues related to implementing docker into the organisations workflow.
+Including covering related concerns about security, energy usage and efficiency.
+To understand the benefits of Docker we shall look at large IT companies that implement it and what benefits can be obtained from containerisation.
+We shall also look at academic studies on the benefits/drawbacks of it's use.
+
+
+LITERATURE REVIEW
+
+This project is focused on understand if containerisation will solve the problems faced by Circle Interactive.
+
+Container based applications have been described by Babak et.al, 2017 as having the advantage of 'speed, portability, scalability, rapid delivery, and density'.
+It is described as becoming very popular over a short period of time.
+
+Containers have the advantage of being very small and are therefore very quick to build, develop, test and deploy.
+They allow daily testing in both development and testing enviorments.
+They can be moved as a single element and maintain a single level of performance.
+
+Containers can be deployed on physical servers, data servers, cloud platforms and regular linux machine.
+Docker allows for quick transfer between cloud and local enviorments.
+
+^
+(Babak Bashari Rad, 2017)
+An Introduction to Docker and Analysis of its Performance
+
+------------------------------- ANOTHER SOURCE -----------------------------------------------------
+
+The following paper has analysed current systems and have discovered the following challenges faced:
+1.Dependancy Hell, where "less than 50% of software could even be succesfully built or installed."
+as the researchers were unable to recreate the conditiones set by the original researchers, and were therefore unable to run the software.
+
+2.Imprecise Documentation on how to reproduce the conditions to run the code.
+This was seen as a major barrier to entry and prevents researches from being able to even build the software.
+This problem affected around 70% of the projects covered in the study.
+
+3.Code Rot. Changes in a projects dependancies such as bugfixes or new development and potentially change results of the applications being tested.
+Therefore it is important that any solution can be proven to be robust against such changes, the advantages of docker are covered in this paper.
+
+4.Barriers to adoption
+Researchers found that available solutions such as workflow software, virtual machines, continous integration serverces among others create a learning
+barrier to entry since they require additional effort to overcome the learning of the service. This causes additional and unnescesary effort.
+
+The paper focuses on alternative solutions to both academic software and software development in general.
+It provides a DevOps (Development and Systems Operation) approach to reproducible software.
+As stated in the paper by 'X':
+"A DevOps approach to “documenting” an application might consist of providing brief descriptions of various install paths, along with scripts or “recipes” that automate setup."
+
+The focus is on the balance between simplicity and comprehensiveness of the documentation provided for setup.
+
+^
+An introduction to Docker for reproducible research, with examples from the R environment
+
+
+<------------------------------- RESOLVED UNTIL THIS POINT ---------------------------------------->
+
+
+
+
+
+-------------------------------DOCKER AS LOCAL ENVIORMENT------------------------------------------
+
+
+METHODOLOGY
+
+During the yearly company review the focus was on streamlining the organisations operations.
+One of the main points brought up was the strain on system admins time.
+At the current moment sytem admins were involved in every stage of development.
+Often performing very simple tasks, that even a junior developper could perform with some training.
+So in an effort to better utilize their time more training and new solutions were proposed.
+
+Further conversations with SysAdmins were held and then the topic of using containers during developnent was raised.
+This was of particular interest, as it allowed for a clear separation of responsabilities and had the possibility of
+freing up time and providing developpers with more opportunities to solve problems.
+
+In conversations with other developpers implementing docker as a solution was seen as the organisational goal.
+Given such interest in this solution, it was then adopted as the topic for this paper.
+
+While informing the research for this paper, a variety of sources were used including:
+- The UWE library and Google Scholar to find relevant research papers and literature 
+- Research journals
+- Dockers research page and other organisations white papers and use.
+- Official company statistics and research to inform comparisons
+After all this information was compiled a deeper research into papers was carried out and from then conclusions were drawn.
+Particular interest was shown in investigating comparison between docker and more traditional solution including VM(Virtual Machines)
+and not using any containerisation as was the case for some of the servers at Circle.
+
+MAYBE??
+As for individual testing an experiment on the amount of time and effort to set up a clean install of drupal 7.
+Once following traditional installation, and once employing docker and an official image provided by the company.
+This experiment would not provide conclusive evidence, but is rather just to provide an estimate of both workflows.
+'Reuse comment on the workflow'.
+
+--------------------------------------------------------------------------------------------------------------
+
+FINDINGS
+
+There appear to be at least 3 separate concerns with the implementation of containers in DevOps
+-Security
+"The analysis shows that Docker provides a high level of isolation and resource limiting for its containers using name spaces,
+cgroups, and its copy-on-write file system, even with the default configuration."
+(Thanh Bui, 2015).
+
+Also mentioned by them was:
+VM are argued to be more secure than the former, however the anylisis conducted shows that docker containers are fairly secure out of the box.
+It is also possible to increase security by running them as "non-priviliged" and then performing additional hardening 
+
+^
+Analysis of Docker Security
+
+---------------------------------------------------------------------------------------------------------------
+
+-Performance
+Contanarization is a low overhead to the usual form of virtualization using virtual machines.
+It is a lightweight alternative, as it offers isolation and resource control without the overhead of an additional kernel.
+Docker is now displacing virtual machines as the virtualization solution of choice.
+
+In the tests run in Felter et al. (2015), comparing CPU, memory, IO and network performance they found Docker outperforms KVM.
+On similar Redis and MySQL, Docker performs just as well as bare-metal Linux after configuration.
+
+Another set of experiments conducted by Ruan et al. (2016) found that dockers file mount implementation and port mapping
+cause higher I/O latency.
+
+They performed research on available cloud containers from Amazon & Google and concluced
+that containerisation is only feasable on baremetal, and not inside VMs.
+
+Containers are far more efficient, and use less performance overhead.
+However compared to baremetal that can be upto a 5% decrease in I/O operations performance.
+This might be unacceptable for database servers for example.
+
+^
+How does docker affect energy consumption? Evaluating workloads in and out of Docker containers
+
+
+--------------------------------------------------------------------------------------------------------------
+
+-Energy Consumption
+The research found that energy consumption of docker container workload compared to baremetal system, shows an increase of around 2W in average power.
+
+
+
+DISCUSION
+
+The conclusion from the paper was that organisation must weight up the requirments.
+Do they require the proccess isolation and maintainability of contanarized applications.
+
+For some organisations heat and energy savings can be important,
+They do however point out that without Docker the human cost of maintanance would exceed the energy, cooling/air conditioning costs of the 2W ineficiencies.
+The benefit of using Docker however is the ability to deploy many containers on a single machine.
+
+In conclusion the paper indicates energy consumption would not be a defining factor in the choice.
+These tests were performed without the use of orchaestration, such as Kubernetes which might have increased performance.
+
+
+^
+How does docker affect energy consumption? Evaluating workloads in and out of Docker containers
+
+----------------------------------------------------------------------------------------------------------------
+
+DOCKER FACTS
+-Better performance than VM's 100's of Docker containers for a desktop
+-Dockerfiles are small plain text files that that can be tracked in git.
+-Docker handles the packaging and execution of a container so that it works identically accross different machines
+-Docker provides a convenient reuse strategy to share any image publicly or privately through the Docker Hub.
+
+DOCKER LIMITATIONS
+- Does not provide complete virtualization, rather relies on linux kernel
+- Limited to 64bit hardware, impossible on older hardware
+- Requiers virtualized enviormed on non-linux enviorments, however this is fine since 'around 67% of server side devices run linux'.
+- Potential security issues, however these addressed in another paper.
+
+^
+An introduction to Docker for reproducible research, with examples from the R environment
+
+DOCKER ADOPTION
+- Docker is being adopted at a blistering pace
+
+^
+How does docker affect energy consumption? Evaluating workloads in and out of Docker containers
+
+
+-------------------------------DOCKER SOLUTION-------------------------------------------------------
+
+
+1. Docker images: resolving ‘Dependency Hell’
+Docker has been described as building upon familiar technologies such as LXC containers, virtualisation of the OS and git like version control.
+It helps solve current problems of 'Dependancy Hell' by providing a complete binary image where all software has been configured and tested.
+With all the nescesary files included, which easy distribution and setup.
+
+2. Dockerfiles: Resolving imprecise documentation
+Docker also allows for resolving impresice documentation, by providing a simple script that defines the nescesary software.
+This allows for easy version control and reduces differences between building on different machines.
+It provides a human readable summary of dependancies and provides documentation for the project
+
+3. Tackling code-rot with image versions
+Docker helps resolve the changes to dependancies that are introduced with new versions.
+This includes security fixes, new features, or fixing depracaion.
+These are all causes of code rot, using docker allows for version control providing a simple way to confirm wether code rot is present.
+
+4. Barriers to adoption and re-use
+Docker allows for the lowering of the barrier of entry to other researchers to encourage reuse.
+Since other researchers will be less likely to build on existing work if it only possible to use a single particular workflow, or only one software platform.
+It also encourages users to make their projects available for reuse since it does not involving additional unnescesary effort.
+
+
+^
+An introduction to Docker for reproducible research, with examples from the R environment
+
+-----------------------------------------------------------------------------------------------------
+
+DISCUSSION
+
+From the papers discussed we have found that:
+Docker and containerised applications have adequate security compared to bare metal solutions.
+In terms of performancem there is a slight decrease in raw performance when compared to bare-metal,
+however this is more than made up for by the value of containirisation and the benefits provided in the form of time and cost savings.
+As for energy efficiency, the increased 2W in power consumption can be offset by dynamic power consumption, only using what is needed and scaling down in periods of low demand.
+
+It is also imortant to note that docker would improve the buisnesses ability to handle demand and would increase productivity for sysAdmins and developpers therefore increasing revenue.
+
+IMPORTANT
+CONCLUSION
+Docker containers allow for the separation of inside and outside of the container.
+It allows for system admins to deploy and maintain the server with containers,
+and for the proggramer to look after the applications inside the docker container.
+
+This would shift the current responsability of sys admins to maintain both inside and outside
+and allow developpers to manage the whole installation and development process.
+It would allow containers to work in every enviorment with dependencies embeded within the applications.
+Therefore providing a reliable, consistent and improved enviorment allowing for predictable results.
+
+It allows for more containers to be run on a single host, it offers higher density and no overhead wastage of resources.
+(Babak Bashari Rad, 2017)
+
+
+CONCLUSION
+In conclusion the benefits of docker far outweight the negatives and therefore Circle Interactive would do well to continue implementing the technology at every stage in production, deployment and maintanance on their clients software.
+
+After conducting this research it is very clear why docker and containerisation are becoming so widely used, from industries such as online-gaming to e-commerce and even X important industry here.
+
+
+
+RECOMMENDATIONS
+
+Circle Interactive should implement a policy to include the use of docker, kubernetes into any future client work, to ensure parity in implementation, they should also offer already existing clients the opportnity to upgrade to the new form of software at a slightly subsidised rate. As this would benefit both the client, and Cirlce Interactive, with shorter development, backup and troubleshooting times it is very likely it would see wide adoption. 
+
+
