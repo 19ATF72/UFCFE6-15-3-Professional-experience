@@ -103,6 +103,131 @@ It shares a moral resposability as well as a task responsibility.
 It is important to create products that do not harm people 
 
 
+----------------------------------------------------------------------------------------------------------
+
+
+LIVING IN A DIGITAL WORLD
+
+Digital devices are forming part of our life and our friendship.
+Huge nunbers of people use mobile devices.
+There is an increase in mobile device uses, as well as the side effects being studied.
+
+There is reaserch into how people use technology and how long they are utilizing it.
+Introduces a researcher which has coined the term of seductive digital immersion.
+It allows for conection without the fear of intimacy.
+
+People can interact with a lot of people while still keeping them at bay.
+Circumstancial evidence of students being unable to perform sequential logic, and rational thinking.
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Design and Ethics in the era of big data
+
+
+Research into urban computing, placing sensors at key locations to track people and reccomend amazon items.
+This could allow for corporations and goverment creating profiles on people and track them.
+Researcher is a moron. Though this would never happen 'too expensive'.
+
+Provides a terrifying example of Maiden Square where the turkish goverment sent SMS messages to people attending goverment protests after setting up temporary honeypot cell towers.
+
+Armed with this new knowledge, she now re-evaluates car trackers, fitness trackers, etc.
+How information here can lead to easily identify individuals opinion, characteristics and behaviour.
+Mentions how black boxes are an invasion of privacy.
+
+Reuse and trading of personaly identifiably data is now a commodity, yet the people providing it are often unaware.
+
+The world of sensors and always on data gathering.
+It also talks about platform agnostic gathering devices, as well as user contributions that allow for goverments and large companies to assemble a 360 degree profile of individuals characteristics and behaviour.
+
+This is mass market consumer surveilance.
+
+Data as a commodity once collected can be stored indefinetly and can change owners many times.
+Examples recently include british citizens whose health records were going to be sold to consultancies barely anonimised.
+These had already been passed to a distribution centre.
+
+The concept of back-end information exchange , or the data curtain veil that applies to your data.
+Where is it stored?
+Who has access?
+Are there obious backdoors (even legal backdoors)?
+Do the people holding it hold my principles about sharing?
+
+There is a responsibility of interface developpers to improve the collection, processing and sharing personally identifiable data. They must create interafaces that make it easier to share information and that allow them to withold and and control it's spread.
+
+It is also part of managers, engineers and legal staff job to omake consequential decisions about data managment.
+The customer also plays an important role, since they are able to falsify or opt out of providing information to these buisnises, they have to take appropriate action to ensure the companies do not abuse gathering and storing.
+
+Next they talk about predictive buying algorithms.
+And how personally identifiable information can lead to companies knowing more than a customer is comfortable them knowing.
+
+The example is of a pregnant woman buying vitamins, if the data is not anonymised the company can immediatly assume that any identifiable person making the
+se purchases is pregnant, and the customer might not be okay with that.
+This could lead to pregnancy related flyers or recomendations arriving at their parents house.
+The designers aren't guilty, however the systems and mechanisms they created and the identifiable personal information they shared eliminate their complete innocence.
+
+Since they are not solely responsible nor owners of the product, they can improve the interface to allow the user more control over how their information is stored and allowing them mechanisms to opt out.
+
+They can also act as advocates for correct practices, even if they do not control the product.
+The introduction of notice of data collection and process as well as impartial review would empower the customer.
+
+They also recognise that often budgets and timelines do not allow for the kind of engagement and design that she is calling for in this paper and often the development of technology outpaces the regulation.
+
+There is often a conflict of interest in the shareholders and the designers and often with the organisations and the public as to what the companies intentions are (such as PI gathering lots of data on their clients).
+Limiting the amount of data gathered by companies might often affect the source of revenue they seek to protect and therefore they have a vested interest in not implementing these policies.
+
+It is also important to guide the development of privacy oriented design after the explosion of mass surveilance after 9/11 and the patriot act.
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+Computer Experts, Guns for hire or professionals
+
+A push for socially responsoble computing expertise.
+Mentions how professionals often subscribe to a gun for hire to the highest bidder without considering ethics as long as it is legal.
+
+They want additional top down control over who can decide what a professional is or isn't seems like a vying for control. They want to self-regulate as long as they are regulators for others.
+
+They are elitist saying that the best way to gauge skill in computing is education and certification that provide credentials, even though in computing it is not nescesary to have any of these if you are self learned and have experience.
+These credentials give the accrediting body the power to decide who is 'profesional' and is in my mind undesirable.
+
+How these experts handle their relationships to the organisations that hire them and to the public must be considered.
+
+Computer experts often see themselvs as merely agents, shifting responsibility to their client, employer or superviser, their job being only to implement the job implemented by the higher ups.
+They are esentially guns for hire.
+
+However these computer experts descision on structure can have a massive effect on the enviorment and can facilitate/ constrain desired/undesired behavior and might lead to societal values in one form or another.
+
+Computer experts have more agency than just a means to an end for the client.
+
+1. Clients, employers and the public need higher expertise when making descisions related to the experts field.
+They need help establishing goals and strategies not just implementation.
+
+The experts can help the framing of key issues, that might escape the product owner due to their inexperience in the software realm.
+Uses same example as going to a Doctor, the doctor assists you in the process of determining what course and options are available and we rely on them to explain the risks and benefits available for different approaches.
+
+2. Another approach is to see computer experts as paternalitic since they are in the best position to understand needs and proper courses of action as well as benefits and risks.
+Non experts must rely on them to act in their best interest, and should transfer some descision making power to the experts. Therefore experts must develop knowledge on the proper values interests and preferences to their descisions.
+
+3. The 3rd approach is related to a sharing of responsabilities were descisions are made through interaction and iteration. In this model there is trust between the product owner and expert where the expert is trusted to make the right descision based on the trust that the client will provided all the relevant information for the expert to make an assestment.
+
+They mention the trust that is nescesary when dealing with the public and other companies.
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+Who are we -- Now
+
+
+Computing has become such an in-tegral part of business and everyday life that the reliable operation of ever-advancing computing technologies is an enduring concern. 
+
+
+
+
+
 
 
 
