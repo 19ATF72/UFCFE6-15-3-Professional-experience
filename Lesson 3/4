@@ -1,16 +1,15 @@
-Describe in your own words, a situation in which either you or a colleague has faced an ethical dilemma,
-sometimes called a "policy vacuum".
+During my time working at Circle Interactive, I questioned colleagues about ethical dilemas they had faced while working with the company.
+From this research I discovered some examples and the steps taken to overcome these muddles.
 
-During my time working at Circle Interactive, I questioned colleagues about ethical dilemas.
-From this research I discovered some ethical dilemas faced by the company.
+The issue arose when managment considered engaging in buisness with several companies that performed ethically dubious actions, with developers considering them anti-consumer.
+The companies in question were involved in aggresive data-gathering of potentially personaly identifiable data and selling it to 3rd parties without user consent. They also ignored users request to have their information removed and blocked users that raised questions about their operations.
 
-The issue arose when managment decided to engage in buisness with several companies that engaged in what the developpers believed were
-anti-consumer practices.
-These companies were involved
+These actions took place before the introduction of GDPR consumer protection laws and might not have been outright illegal, but they could still be considered unethical and many developers working at the company though so.
+Once they brought this to the attention of managment, an ethical analysis was carried out, with developers providing guidance, as they have better understanding of the collection mechanisms and make consequential descisions about data management.
 
+Since the developers acted as advocates for correct practices and not merely as agents, they avoided shifting responsabillity to management or their clients and achieved a better balance of interests between the company and the consumer.
 
-People at my org deciding to quit over the company dealing with organisations
-abuse their customers with anti consumer practices.
+Management then provided the potential clients with a clear outline of the expected data gathering practices, and when they refused to comply the potential client was rejected.
 
 
 
