@@ -1,0 +1,20 @@
+TY  - JOUR
+T1  - Adopting key lessons from agile manufacturing to agile software product development—A comparative study
+AU  - Kettunen, Petri
+JO  - Technovation
+VL  - 29
+IS  - 6
+SP  - 408
+EP  - 422
+PY  - 2009
+DA  - 2009/06/01/
+SN  - 0166-4972
+DO  - https://doi.org/10.1016/j.technovation.2008.10.003
+UR  - http://www.sciencedirect.com/science/article/pii/S0166497208001302
+KW  - Agile software process models
+KW  - Software process improvement
+KW  - Agile manufacturing
+KW  - New product development
+KW  - Agile enterprise
+AB  - Many industrial new product development (NPD) software projects apply nowadays agile methodologies. These methodologies, such as Scrum, eXtreme Programming (XP), and Feature-Driven Development (FDD) date back to 1990s, and the Agile Manifesto was declared in 2001. However, already before that the concept of agile manufacturing (AM) was discovered to describe a corporate ability for quick adaptation to changing requirements. There is surprising amount in common between these two fields. This raises a question of whether NPD software development companies could take even more overall advantage of those different agile approaches. This interdisciplinary paper explores the commonalities between the key concepts of AM and some of the most popular agile software methods, and consequently suggests potential new areas for software process improvement (SPI) in large-scale NPD organizations. An industrial case example illustrates how agility in embedded software product development can be enhanced by following typical NPD principles. We conclude that there is potential for further improvements in software product development industry in general by seeing agility as a wider, organization-oriented business concept following the AM/NPD learning. Current agile software process models cover only a subset of this space.
+ER  - 
