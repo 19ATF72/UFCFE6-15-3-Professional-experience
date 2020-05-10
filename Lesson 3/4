@@ -1,15 +1,15 @@
 During my time working at Circle Interactive, I questioned colleagues about ethical dilemas they had faced while working with the company.
-From this research I discovered some examples and the steps taken to overcome these muddles.
+From this research I discovered a clear example and the steps taken to overcome the muddle.
 
 The issue arose when managment considered engaging in buisness with several companies that performed ethically dubious actions, with developers considering them anti-consumer.
-The companies in question were involved in aggresive data-gathering of potentially personaly identifiable data and selling it to 3rd parties without user consent. They also ignored users request to have their information removed and blocked users that raised questions about their operations.
+The companies in question were involved in aggresive data-gathering of potentially personaly identifiable data and sharing it with 3rd parties without clear consent. They routinely brushed off users that raised questions about their operations.
 
 These actions took place before the introduction of GDPR consumer protection laws and might not have been outright illegal, but they could still be considered unethical and many developers working at the company though so.
-Once they brought this to the attention of managment, an ethical analysis was carried out, with developers providing guidance, as they have better understanding of the collection mechanisms and make consequential descisions about data management.
+Once they brought this to the attention of managment, an ethical analysis was carried out. With developers providing guidance since they have better understanding of the collection mechanisms and make consequential descisions about data management.
 
-Since the developers acted as advocates for correct practices and not merely as agents, they avoided shifting responsabillity to management or their clients and achieved a better balance of interests between the company and the consumer.
+Since the developers acted as advocates for correct practices and not merely as agents or guns for hire as Johnson, D (2008) mentions, they avoided shifting responsabillity and took the correct moral descision by defending client interests to management and therefore achieved a better balance of interests between the company and the consumer.
 
 Management then provided the potential clients with a clear outline of the expected data gathering practices, and when they refused to comply the potential client was rejected.
 
-
-
+Bibliography
+-Johnson, D (2008), “Computing Ethics, Computer Experts:  Guns-For-Hire or Professionals?”, Communications of the ACM, Vol 51, No10.
